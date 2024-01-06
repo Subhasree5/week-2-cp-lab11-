@@ -1,0 +1,30 @@
+a) fahrenheit to celsius:
+#include<stdio.h>
+int main ()
+{
+    float c,f;
+    printf("Enter the value of f:");
+    scanf("%f",&f);
+    c=(5*(f-32))/9;
+    printf("CELSIUS=%f \n",c);
+return 0;    
+}
+Output
+Enter the value of f:40
+CELSIUS=4.444445 
+  b)celsius to fahrenheit:
+#include<stdio.h>
+int main ()
+{
+    float c,f;
+    printf("Enter the value of c:");
+    scanf("%f",&c);
+    f=(9*c/5)+32;
+    printf("FAHRENHEIT=%f \n",f);
+return 0;    
+}
+Output
+Enter the value of c:4.444445
+FAHRENHEIT=40.000000 
+
+
